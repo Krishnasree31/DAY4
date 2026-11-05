@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessible Webpage</title>
+
+    <style>
+        body {
+            background-image: url("image1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: white;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #1D4ED8;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: rgba(43, 41, 41, 0.7);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 250px;
+            height: 150px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            width: 250px;
+        }
+
+        button {
+            background-color: #1D4ED8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #6a6d70;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Web Development Website</h1>
+        <p>Learn and explore web development.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <img src="image.jpg"
+                 alt="Sample image showing a website placeholder">
+                 <img src="image2.jpg"
+         alt="Second web development image">
+         <img src="image3.webp"
+         alt="Third web development image">
+         <img src="image4.jpg"
+         alt="Fourth web development image">
+            <p>Welcome to our Web Development Website!
+            We help you explore the world of web development
+            and learn how to create attractive, responsive,
+            and user-friendly websites using modern technologies
+            like HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Web Development</h2>
+
+            <article>
+                <h3>Our Services</h3>
+
+                <p>We provide a wide range of web development
+                services, including website design, development,
+                and maintenance. We create attractive, responsive,
+                and user-friendly websites using HTML, CSS,
+                and JavaScript. We also focus on improving
+                website performance, functionality, and user
+                experience. Our goal is to provide creative
+                and reliable digital solutions that help
+                businesses grow online.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"
+                placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"
+                placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"
+                placeholder="Enter your message"></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Web Development Website.
+        All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
